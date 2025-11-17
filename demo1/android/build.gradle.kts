@@ -1,3 +1,11 @@
+
+plugins {
+    // You will already see lines here like:
+    id("com.android.application") version "8.2.0" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.0" apply false
+
+   
+}
 allprojects {
     repositories {
         google()
